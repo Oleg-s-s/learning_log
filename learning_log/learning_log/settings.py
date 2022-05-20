@@ -31,9 +31,9 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    #my_apps
+    # my_apps
     'learning_logs',
-    #django_main_apps
+    # django_main_apps
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
