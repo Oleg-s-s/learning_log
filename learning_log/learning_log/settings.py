@@ -34,6 +34,10 @@ INSTALLED_APPS = [
     # my_apps
     'learning_logs',
     'users',
+
+    # side_apps
+    'bootstrap4',
+    
     # django_main_apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -128,3 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # My Settings
 LOGIN_URL = '/users/login/'
+LOGIN_REDIRECT_URL = '/topics/'
